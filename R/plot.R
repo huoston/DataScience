@@ -59,7 +59,7 @@ plot.spgraph <- function(x,
                          vertex.size.by = c("type", "set", "manual"),
                          vertex.size = c(15, 25, 25),
                          edge.color.by = c("shortestpath", "manual"),
-                         edge.color = c("darkgrey", wes_palette("Darjeeling")[4]),
+                         edge.color = c("darkgrey", wes_palette("Darjeeling1")[4]),
                          vertex.label = nice_vertex_labels(x),
                          edge.label = E(graph)$weight,
                          # Reasonable defaults for igraph builtins.
